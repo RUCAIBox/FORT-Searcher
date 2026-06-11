@@ -35,31 +35,9 @@ FORT controls these risks through entity selection, evidence graph construction,
     <img src="fig/performance.png" width="75%"/>
 </p>
 
-Using SFT only on Qwen3-30B-A3B-Thinking-2507, **FORT-Searcher achieves the best overall performance among comparable-size open-source search agents**:
-
-| Model | BrowseComp | BC-ZH | xbench-05 | xbench-10 | Seal-0 | Overall |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|
-| | | | | | | |
-| *Proprietary Agents* | | | | | | |
-| GPT-5.2-Thinking-xhigh | 65.8 | 76.1 | -- | -- | -- | -- |
-| GPT-5.5 | 84.4 | -- | -- | -- | -- | -- |
-| Claude Opus 4.7 | 79.3 | -- | -- | -- | -- | -- |
-| | | | | | | |
-| *Large-scale Open-source Agents* | | | | | | |
-| GLM-5 | 75.9 | 72.7 | -- | -- | -- | -- |
-| DeepSeek-V3.2 | 67.6 | 65.0 | -- | -- | -- | -- |
-| Step 3.5 Flash | 69.0 | 73.7 | 83.7 | 56.3 | -- | -- |
-| Kimi-K2.5-Thinking | 74.9 | -- | -- | -- | 57.4 | -- |
-| Qwen3.5-397B-A17B | 78.6 | 70.3 | -- | -- | 46.9 | -- |
-| Qwen3.5-122B-A10B | 63.8 | 69.9 | -- | -- | 44.1 | -- |
-| | | | | | | |
-| *Comparable-size Open-source Agents* | | | | | | |
-| Tongyi DeepResearch | 43.4 | 46.7 | 75.0 | 47.5 | 45.8 | 51.7 |
-| OpenSeekerV2 | 46.0 | 58.1 | 78.0 | 43.4 | 41.4 | 53.4 |
-| REDSearcher | 57.4 | 58.2 | -- | -- | -- | -- |
-| Qwen3.5-35B-A3B | 61.0 | 69.5 | 77.4 | 50.3 | 41.4 | 59.9 |
-| MiroThinker-1.7-mini | 67.9 | 72.3 | 77.2 | **57.2** | **48.2** | 64.6 |
-| **FORT-Searcher** | **72.2** | **75.0** | **80.8** | **57.2** | 46.0 | **66.2** |
+<p align="center">
+    <img src="fig/overallp.png" width="90%"/>
+</p>
 
 ## Release Plan
 

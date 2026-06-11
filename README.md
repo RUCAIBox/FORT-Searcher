@@ -1,21 +1,14 @@
-<p align="center">
-    <img src="figs/logo.png" width="125" style="margin-bottom: 0.2;"/>
-<p>
-<h1 align="center"> FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents </h1>
+<h1 align="center">FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks<br>for Training Deep Search Agents</h1>
+
+<div align="center">
 
 The official repo for "FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents".
 
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-26xx.xxxxx-b31b1b.svg)](http://arxiv.org/abs/26xx.xxxxx) -->
-
-<p align="center">
-📃 <a href="">Paper (coming soon)</a> &nbsp&nbsp | &nbsp&nbsp 🏠 <a href="">Project Page (coming soon)</a>
-</p>
-
-<p align="center">
-       🤗 <a href="">SFT Dataset (coming soon)</a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="">FORT-Searcher-30B-A3B (coming soon)</a>
-</p>
+📃 [Paper](https://arxiv.org/abs/2606.12087)&nbsp;&nbsp;|&nbsp;&nbsp;🤗 [SFT Dataset (coming soon)]()&nbsp;&nbsp;|&nbsp;&nbsp;🤗 [FORT-Searcher-30B-A3B (coming soon)]()
 
 We will release the training data, evaluation code, and model weights. Stay tuned for updates!
+
+</div>
 
 ## Overview
 
@@ -33,13 +26,13 @@ FORT controls these risks through entity selection, evidence graph construction,
 ## Pipeline
 
 <p align="center">
-    <img src="figs/pipeline.png" width="90%"/>
+    <img src="fig/pipeline.png" width="90%"/>
 </p>
 
 ## Performance
 
 <p align="center">
-    <img src="figs/performance.png" width="75%"/>
+    <img src="fig/performance.png" width="75%"/>
 </p>
 
 Using SFT only on Qwen3-30B-A3B-Thinking-2507, **FORT-Searcher achieves the best overall performance among comparable-size open-source search agents**:
